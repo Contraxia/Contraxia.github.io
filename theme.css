@@ -16,7 +16,10 @@ body{
     padding: 0;
     max-height: 100vh;
     display: flex;
-    background-color: #F2C2CF;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
 }
 
 img{
@@ -24,18 +27,19 @@ img{
 }
 
 .floatButton{
-    background-color: white;
-    font-size: 30px;
+    background-color: rgba(63, 245, 236, 0.253);
+    font-size: 24px;
     border-radius: 10px;
     position: fixed;
     right: 30px;
     top: 90vh;
-    color: black;
+    color: rgb(187, 107, 190);
+    font-family: 'Poppins', sans-serif;
 }
 
 .floatButton:hover{
-    background-color: black;
-    color: white;
+    background-color: rgba(243, 231, 127, 0.671);
+    color: rgba(67, 181, 247, 0.685);
 }
 
 .row{
@@ -76,6 +80,18 @@ img{
     height: 28vh;
 }
 
+.height-33{
+    height: 31vh;
+}
+
+.height-60{
+    height: 58vh;
+}
+
+.height-40{
+    height: 38vh;
+}
+
 .height-80{
     height: 78vh;
 }
@@ -93,6 +109,17 @@ img{
     max-width: 75%;
     flex-basis: 75%;
 }
+
+.width-66{
+    max-width: 66%;
+    flex-basis: 66%;
+}
+
+.width-70{
+    max-width: 70%;
+    flex-basis: 70%;
+}
+
 
 
 .width-50{
@@ -130,34 +157,37 @@ img{
     flex-basis: 33%;
 }
 
-
+div{
+    text-justify: inter-word;
+}
+/* Esquina Superior Derecha*/
 .dialogo-1{
     position:fixed;
     top:3vh;
-    background-color: #B0D9BE;
+    background-color: #D9B4C2;
     border-radius: 10px;
     right: 3vh;
     max-width: 20%;
 }
 
-/* Centrado */
+/* Centrado en medio*/
 .dialogo-2{
     justify-content: center;
     position: absolute;
     top:30%;
     left:50%;
     transform:translate(-50%, -50%);
-    background-color: #B0D9BE;
+    background-color: #93bcc8;
     border-radius: 10px;
     max-width: 25%;
     text-align: center;
 }
 
-
+/* Esquina superior derechas*/ 
 .dialogo-3{
     position:fixed;
     top:3vh;
-    background-color: #B0D9BE;
+    background-color: #85cac8;
     border-radius: 10px;
     right: 3vh;
     max-width: 20%;
@@ -168,25 +198,85 @@ img{
 .dialogo-4{ 
     position:fixed;
     top:4vh;
-    background-color: #B0D9BE;
+    background-color: #F5C58A;
     border-radius: 10px;
     left: 4vh;
     max-width: 37vh;
     text-align: center;
 }
 
-/* Esquina superior izquierda*/ 
+/* Esquina inferior Derecha*/ 
 .dialogo-5{ 
     position:fixed;
     bottom:4vh;
-    background-color: #B0D9BE;
+    background-color: #fa3656;
     border-radius: 10px;
     right: 4vh;
     max-width: 47vh;
     text-align: center;
 }
 
+/* Centro arriba*/ 
+.dialogo-6{ 
+    position:fixed;
+    top: 5vh;
+    background-color: #a3abed;
+    border-radius: 10px;
+    left:50%;
+    transform:translate(-50%, 0);
+    max-width: 47vh;
+    text-align: center;
+}
+
+/* arriba*/ 
+.dialogo-7{ 
+    position:fixed;
+    top: 5vh;
+    background-color: #acb4f4;
+    border-radius: 10px;
+    left:50%;
+    transform:translate(20%, 0);
+    max-width: 47vh;
+    text-align: center;
+}
+/* centro raro*/ 
+.dialogo-8{ 
+    position:fixed;
+    top: 5vh;
+    background-color: #a7b0fa;
+    border-radius: 10px;
+    left:50%;
+    transform:translate(80%, 230%);
+    max-width: 47vh;
+    text-align: center;
+}
+
+/* super en el centro*/ 
+.dialogo-9{ 
+    position:fixed;
+    top: 5vh;
+    background-color: #c9e26e;
+    border-radius: 10px;
+    left:50%;
+    transform:translate(-50%, 235%);
+    max-width: 47vh;
+    text-align: center;
+}
+
+/* derecha en el centro*/ 
+.dialogo-10{ 
+    position:fixed;
+    top: 5vh;
+    background-color: #f186d1;
+    border-radius: 10px;
+    left:50%;
+    transform:translate(-170%,200%);
+    max-width: 47vh;
+    text-align: center;
+}
+
 p{
+    max-width: 100%;
     margin: auto;
-    padding: 2px;
+    padding: 3px;
 }
